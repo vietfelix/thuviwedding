@@ -1438,12 +1438,6 @@ a.ui-button:active,
     }
 }
 
-@media (max-width: 400px) {
-    .wpo-site-header .navbar-brand img {
-        max-width: 160px;
-    }
-}
-
 .wpo-site-header .brand-logo {
     padding: 0;
 }
@@ -3380,7 +3374,8 @@ a.ui-button:active,
 @media (max-width: 575px) {
 
     .wpo-Service-section-s2 .wpo-Service-wrap .owl-nav .owl-prev,
-    .wpo-Service-section-s2 .wpo-Service-wrap .owl-nav .owl-next {
+    .wpo-Service-section-s2 .wpo-Service-wrap .owl-nav .owl-next,
+    .wpo-Service-section-s2 .wpo-Service-wrap .owl-dots {
         display: none;
     }
 }
@@ -3498,26 +3493,26 @@ a.ui-button:active,
 
 .wpo-wedding-date p {
     font-weight: 400;
-    font-size: 25px;
+    font-size: 40px;
     line-height: 36px;
     text-align: center;
 }
 
 @media (max-width: 1199px) {
     .wpo-wedding-date p {
-        font-size: 25px;
+        font-size: 35px;
     }
 }
 
 @media (max-width: 575px) {
     .wpo-wedding-date p {
-        font-size: 24px;
+        font-size: 30px;
     }
 }
 
 @media (max-width: 480px) {
     .wpo-wedding-date p {
-        font-size: 24px;
+        font-size: 30px;
     }
 }
 
