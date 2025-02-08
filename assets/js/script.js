@@ -226,18 +226,14 @@
     /*------------------------------------------
         = HIDE PRELOADER
     -------------------------------------------*/
-    // function preloader() {
-    //     if ($('.preloader').length) {
-    //         $('.preloader').delay(10).fadeOut(100, function () {
-
-    //             //active wow
-    //             wow.init();
-
-
-
-    //         });
-    //     }
-    // }
+    function preloader() {
+        if ($('.preloader').length) {
+            $('.preloader').fadeOut(250, function () {
+                //active wow
+                wow.init();
+            });
+        }
+    }
 
 
     /*------------------------------------------
@@ -434,8 +430,8 @@
     ==========================================================================*/
     $(window).on('load', function () {
 
-        // preloader();
-        wow.init();
+        preloader();
+        // wow.init();
 
         toggleMobileNavigation();
 
