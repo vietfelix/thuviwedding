@@ -173,7 +173,7 @@ html {
 }
 
 body {
-    font-family: "Jost", sans-serif;
+    font-family: "ms-madi-regular", serif;
     color: #848892;
     background-color: #fff;
     font-size: 18px;
@@ -200,7 +200,7 @@ h4,
 h5,
 h6 {
     color: #323232;
-    font-family: "monallesia";
+    font-family: "ms-madi-regular", serif;
     font-weight: 400;
 }
 
@@ -4670,7 +4670,7 @@ a.ui-button:active,
     font-size: 20px;
     line-height: 27px;
     text-align: center;
-    max-width: 270px;
+    /* max-width: 270px; */
     margin: 0 auto;
     color: #828282;
     margin-bottom: 20px;

@@ -228,9 +228,10 @@
     -------------------------------------------*/
     function preloader() {
         if ($('.preloader').length) {
-            $('.preloader').fadeOut(250, function () {
+            $('.preloader').fadeOut(500, function () {
                 //active wow
-                wow.init();
+                // wow.init();
+                $('.preloader').css('display', 'none');
             });
         }
     }
@@ -430,7 +431,7 @@
     ==========================================================================*/
     $(window).on('load', function () {
 
-        preloader();
+        // preloader();
         // wow.init();
 
         toggleMobileNavigation();
