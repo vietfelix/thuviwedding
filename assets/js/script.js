@@ -240,13 +240,13 @@
     /*------------------------------------------
         = WOW ANIMATION SETTING
     -------------------------------------------*/
-    var wow = new WOW({
-        boxClass: 'wow',      // default
-        animateClass: 'animated', // default
-        offset: 0,          // default
-        mobile: true,       // default
-        live: true        // default
-    });
+    // var wow = new WOW({
+    //     boxClass: 'wow',      // default
+    //     animateClass: 'animated', // default
+    //     offset: 0,          // default
+    //     mobile: true,       // default
+    //     live: true        // default
+    // });
 
 
     /*------------------------------------------
@@ -314,7 +314,7 @@
             arrows: false,
             nav: true,
             center: true,
-            items: 4,
+            items: 5,
             stagePadding: 60,
             navText: ['<i class="ti-arrow-left"></i>', '<i class="ti-arrow-right"></i>'],
             responsive: {
@@ -331,17 +331,17 @@
                     stagePadding: 5,
                 },
                 767: {
-                    items: 2,
+                    items: 3,
                     dots: false,
                 },
 
                 992: {
-                    items: 2,
+                    items: 3,
                     dots: false,
                 },
 
                 1200: {
-                    items: 4
+                    items: 5
                 }
             }
         });
