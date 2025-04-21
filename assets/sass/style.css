@@ -2819,8 +2819,6 @@ a.ui-button:active,
 .static-hero-s3 .wpo-hero-img-wrap .wpo-hero-img img {
     width: 100%;
     border-radius: 275px;
-    -webkit-animation: kenburn 25s 2s alternate infinite;
-    -animation: kenburn 25s 2s alternate infinite;
 }
 
 .wpo-static-hero .wpo-hero-img-wrap .wpo-hero-img:before,
@@ -2855,12 +2853,6 @@ a.ui-button:active,
     .static-hero-s3 .wpo-hero-img-wrap .col:nth-child(2) .wpo-hero-img {
         margin: 30px 0;
     }
-}
-
-.wpo-static-hero .wpo-hero-img-wrap .col:nth-child(2) .wpo-hero-img img,
-.static-hero-s3 .wpo-hero-img-wrap .col:nth-child(2) .wpo-hero-img img {
-    -webkit-animation: kenburn2 35s 3s alternate infinite;
-    -animation: kenburn2 35s 3s alternate infinite;
 }
 
 @-webkit-keyframes kenburn {
