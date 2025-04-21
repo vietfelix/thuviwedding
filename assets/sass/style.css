@@ -4559,12 +4559,13 @@ a.ui-button:active,
 
 .wpo-event-section .wpo-event-wrap .wpo-event-item .wpo-event-img .title h2 {
     padding: 15px 20px;
-    background: rgba(255, 255, 255, 0.4);
+    background: rgba(0, 0, 0, 0.4);
     font-weight: 400;
     font-size: 40px;
     line-height: 50px;
     text-align: center;
     display: inline-block;
+    color: #fff;
 }
 
 @media (max-width: 1399px) {
